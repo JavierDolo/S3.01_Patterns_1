@@ -14,7 +14,7 @@ public class Main {
         AbstractContactFactory usaFactory = new USAContactFactory();
 
         book.addContact(spainFactory.createContact(new ContactDTO(
-                "Juan Pérez", "Street", "Mayor", "23", "3.º, 2", "28001",
+                "Juan Pérez", "Calle", "Mayor", "23", "3.º, 2", "28001",
                 "Madrid", "Madrid", "Spain", "912345678"
         )));
 
